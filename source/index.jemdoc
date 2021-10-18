@@ -14,13 +14,14 @@ Contact: ygn (dot) gharedaghi (at) gmail (dot) com \n
 ~~~
 
 == About Me
-I am a B.Sc. student at [http://www.en.sharif.edu/ Sharif University of technology] [http://ce.sharif.edu/ Computer Science & Engineering Department] and an undergraduate member at [http://ipl.ce.sharif.edu/ Image Processing Lab (IPL)] at the Sharif University of Technology.
+I am a B.Sc. student at [http://www.en.sharif.edu/ the Sharif University of Technology] [http://ce.sharif.edu/ Computer Engineering Department] and an undergraduate member of [http://ipl.ce.sharif.edu/ Image Processing Lab (IPL)] at the Sharif University of Technology.
 My topics of interest involve Computer Vision, Deep Learning, and Machine Learning. I am also eager to learn more about the Internet of Things (IoT) and embedded systems.
 
 == Research Experience
 
 I am currently researching the following topic:
-. Multi-Sensor Data Fusion with Deep Learning in Image Processing Applications
+- Multi-Sensor Data Fusion with Deep Learning in Image Processing Applications
+    Recently, scene perception has been accomplished through applications such as object detection, and semantic segmentation in 2D camera images, and LiDAR sensors. One of the important uses of these applications is in self-driving cars, by reduce human hazards and prevente harmful behaviors. Moreover, can have a significant impact on human life by reducing accidents, air pollution, and increasing travel safety.
 
 
 You may find more detailed information about my research [research.html here].
