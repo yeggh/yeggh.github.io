@@ -14,16 +14,13 @@ Contact: ygn (dot) gharedaghi (at) gmail (dot) com \n
 ~~~
 
 == About Me
-I am a B.Sc. student at [http://www.en.sharif.edu/ the Sharif University of Technology] [http://ce.sharif.edu/ Computer Engineering Department] and an undergraduate member of [http://ipl.ce.sharif.edu/ Image Processing Lab (IPL)] at the Sharif University of Technology.
-My topics of interest involve Computer Vision, Deep Learning, and Machine Learning. I am also eager to learn more about the Internet of Things (IoT) and embedded systems.
+I am in my fourth year of studies towards a bachelor's in Computer Engineering at [http://www.en.sharif.edu/ the Sharif University of Technology] [http://ce.sharif.edu/ Computer Engineering Department]. Also, I am an undergraduate member of the [http://ipl.ce.sharif.edu/ Image Processing Lab (IPL)] at the Sharif University of Technology.
+My topics of interest involve Computer Vision, Deep Learning, and Machine Learning and I am eager to learn more about the Internet of Things (IoT) and embedded systems.
 
 == Research Experience
 
 I am currently researching the following topic:
-- Multi-Sensor Data Fusion with Deep Learning in Image Processing Applications
-    Recently, scene perception has been accomplished through applications such as object detection, and semantic segmentation in 2D camera images, and LiDAR sensors. One of the important uses of these applications is in self-driving cars, by reduce human hazards and prevente harmful behaviors. Moreover, can have a significant impact on human life by reducing accidents, air pollution, and increasing travel safety.
-
+- *Multi-Sensor Data Fusion with Deep Learning in Image Processing Applications* \n
+In this project, we address the 3D detection task in autonomous driving by exploiting features from multiple sensors, namely 2D camera image and 3D LiDAR point cloud. Multi-Sensor Data Fusion provides a more comprehensive understanding of the environment by combining multiple information obtained from different sensors to avoid the perceptual constraints of a single sensor. For example, camera images usually contain useful features such as color and texture while they lack depth estimations. On the other hand, LiDAR point cloud provides helpful depth information while suffering from being sparse and unordered. However, fusing the representations of LiDAR and camera images, which are very different and have different characteristics, is a challenging task.
 
 You may find more detailed information about my research [research.html here].
-
-== Honors and Awards

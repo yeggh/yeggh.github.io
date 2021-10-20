@@ -2,14 +2,15 @@
 = Education
 
 == Teaching Assistance
-During my academic studies, I had the opportunity to work with many faculty members of my home university as a teaching assistant in courses such as Design of Algorithms and Data Structures, Digital Systems Design, and Scientific and Technical Presentation. I gained valuable experience communicating with students through TA classes, preparing theoretical and practical assignments, and evaluating quizzes, exams, and homeworks. \n \n
+During my academic studies, I had the opportunity to work with many faculty members of my home university as a teaching assistant in courses such as Design of Algorithms and Data Structures, Digital Systems Design, and Scientific and Technical Presentation. I gained valuable experience communicating with students through TA classes, preparing theoretical and practical assignments, and evaluating quizzes, exams, and homework.  \n \n
 
 ~~~
 {}{raw}
 <ul>
+
 <li>
 <p style="text-align:left;">
-(CE40417) Artificial Intelligence course <a href="http://blogs.bu.edu/mhrohban/"> Mohammad Hossein Rohban </a>
+Design of Algorithms course (CE40354) Mohammad Ali Abam
 <span style="float:right;">
 <em> September 2021 - Present </em>
 </span>
@@ -18,7 +19,34 @@ During my academic studies, I had the opportunity to work with many faculty memb
 
 <li>
 <p style="text-align:left;">
-(CE40254) <bf> Head </bf> of Data Structure and Algorithms course <a href="http://sharif.edu/~ghodsi/"> Mohammad Ghodsi </a>
+ Data structure and Algorithms course (CE40254) Mahdi Safarnejad-Boroujeni
+<span style="float:right;">
+<em> September 2021 - Present </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Data structure and Algorithms course (CE40254) Masoud Sedighin
+<span style="float:right;">
+<em> September 2021 - Present </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Scientific and Technical Presentation course (CE40221) Shohreh Kasaei
+<span style="float:right;">
+<em> September 2021 - Present </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Design of Algorithms course (CE40354) Masoud Sedighin
 <span style="float:right;">
 <em> January 2021 - June 2021 </em>
 </span>
@@ -27,7 +55,7 @@ During my academic studies, I had the opportunity to work with many faculty memb
 
 <li>
 <p style="text-align:left;">
-(CE40417) Artificial Intelligence course <a href="http://blogs.bu.edu/mhrohban/"> Mohammad Hossein Rohban </a>
+Digital Systems Design course (CE40223) Alireza Ejlali
 <span style="float:right;">
 <em> January 2021 - June 2021 </em>
 </span>
@@ -36,49 +64,130 @@ During my academic studies, I had the opportunity to work with many faculty memb
 
 <li>
 <p style="text-align:left;">
-(CE40181) Probability and Statistics course <a href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en"> Ali Sharifi-Zarchi </a>
+Scientific and Technical Presentation course (CE40221) Shohreh Kasaei
+<span style="float:right;">
+<em> January 2021 - June 2021 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Data structure and Algorithms course (CE40254) Mohammad Ghodsi
+<span style="float:right;">
+<em> January 2021 - June 2021 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Digital Systems Design course (CE40223) Farshad Baharvand
 <span style="float:right;">
 <em> September 2020 - January 2021 </em>
-</span>
-</p>
-</li>
-
-<li>
-<p style="text-align:left;">
-(CE40115) Discrete Structures course <a href="https://scholar.google.com/citations?user=xuNJ-d8AAAAJ&hl=en"> Mohammad Ali Abam </a>
-<span style="float:right;">
-<em> January 2020 - June 2020 </em>
-</span>
-</p>
-</li>
-
-<li>
-<p style="text-align:left;">
-(CE40354) Advanced Algorithm design course <a href="https://scholar.google.com/citations?user=GbJMZLIAAAAJ&hl=en"> Ali Sharifi-Zarchi </a>
-<span style="float:right;">
-<em> January 2020 - June 2020 </em>
-</span>
-</p>
-</li>
-
-<li>
-<p style="text-align:left;">
-(CE40254) Data structure and Algorithms course <a href="https://scholar.google.com/citations?user=TNfL9SIAAAAJ&hl=en"> Mahdi Safarnejad-Boroujeni </a>
-<span style="float:right;">
-<em> January 2020 - June 2020 </em>
-</span>
-</p>
-</li>
-
-<li>
-<p style="text-align:left;">
-(CE40254) Data structure and Algorithms course <a href="https://scholar.google.com/citations?user=TNfL9SIAAAAJ&hl=en"> Mahdi Safarnejad-Boroujeni </a>
-<span style="float:right;">
-<em> September 2019 - January 2020 </em>
 </span>
 </p>
 </li>
 </ul>
 ~~~
 
+== Courses
+I passed the following university courses, as well as several online courses related to deep learning and image processing to strengthen my background. \n \n
+
+~~~
+{}{raw}
+<ul>
+
+<li>
+<p style="text-align:left;">
+Engineering Probability and Statistics
+<span style="float:right;">
+<em> 20/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Signals and Systems
+<span style="float:right;">
+<em> 20/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Numerical Computations
+<span style="float:right;">
+<em> 20/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Data Structures and Algorithms
+<span style="float:right;">
+<em> 19.6/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Design of Algorithms
+<span style="float:right;">
+<em> 19.5/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Artificial Intelligence
+<span style="float:right;">
+<em> 18.7/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Linear Algebra
+<span style="float:right;">
+<em> 18.5/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Computer Architecture
+<span style="float:right;">
+<em> 20/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Digital Systems Design
+<span style="float:right;">
+<em> 20/20 </em>
+</span>
+</p>
+</li>
+
+<li>
+<p style="text-align:left;">
+Embedded Systems
+<span style="float:right;">
+<em> 20/20 </em>
+</span>
+</p>
+</li>
+
+</ul>
+~~~
 
