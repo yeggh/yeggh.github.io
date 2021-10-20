@@ -28,9 +28,11 @@ MathJax.Hub.Config({
 <div id="toptitle">
 <h1>Research</h1>
 </div>
+<p><b>Multi-Sensor Data Fusion with Deep Learning in Image Processing Applications</b>
+</p>
 <p>Recently, scene perception has been accomplished through object detection, and semantic segmentation in 2D camera images, and Light Detection and Ranging (LiDAR) sensors. One of the important uses of this study is in self-driving cars application. Scene perception can have a significant impact on human life by reducing driving hazards, preventing harmful behaviors, and increasing travel safety. Although Deep Learning researches are very advanced in 2D object detection, and it is considered a solved issue in good environments, it still remains a challenging problem in more complex conditions (e.g. rainy days, dim light, etc). <br />
 Camera images provide high-resolution color and texture attributes, but they are not prone to extreme weather and light conditions and suffer from a lack of depth estimation. On the other hand, the LiDAR sensor is an active point-and-shoot device that can re-create the car's surroundings in the form of 3D points (i.e. point cloud). The point cloud is not affected by illumination conditions, but it is hard to process this data since it is sparse, irregular, and deprived of characteristics offered by camera images. <br />
-In this study, we aim to provide a more comprehensive perception of the environment by integrating features from both LiDAR point cloud and camera images. This task is divided into the following parts:
+In this study, we aim to provide a more comprehensive perception of the environment by integrating features from both LiDAR point cloud and camera images. This task is divided into the following sub-tasks:
 </p>
 <ol>
 <li><p><b>2D Camera Image Feature Extraction</b>: Processing 2D images using a Convolutional Neural Network (CNN) to create a feature map and detecting objects with a fully connected network as a classifier is a simple yet very promising method. Thus, processing 2D images with deep learning is very advanced.
@@ -45,7 +47,33 @@ In this study, we aim to provide a more comprehensive perception of the environm
 <li><p>2D Representation: These methods generate 2D views of point cloud by projecting it to the image plane. The created data can be processed by 2D convolutions. This method also loses the 3D geometry information.
 </p>
 </li>
-<li><p>Point Representation: In these methods, the point cloud is processed directly without transforming. In PointNet, the T-Net module aligns point clouds, and MLPs process individual points without considering local point geometry. PointNet takes locality into consideration by grouping points (set abstraction) and applying PointNets locally for extracting features.</p>
+<li><p>Point Representation: In these methods, the irregular point cloud is processed directly without transforming. In PointNet, the T-Net module aligns point clouds, and MLPs process individual points without considering local point geometry. PointNet<tt></tt> takes locality into consideration by grouping points (set abstraction) and applying PointNets locally for extracting features. Pointnet<tt></tt> has hierarchical Encoder-Decoder architecture where points are down-sampled and then up-sampled. Although Encoder-Decoder networks perform better in dense data, their effectiveness reduces for sparse point clouds.
+</p>
+</li>
+<li><p>Graph Representation: In these methods point clouds can be represented as graphs processed by convolution-like (e.g. Graph Convolutional Networks) operations. For example, Graph Convolutional Networks (GCNs) are a generalized version of CNNs. They both operate by multiplying the input neurons with a set of weights known as filters which act as a sliding window to inspect features from the neighborhood. In GCNs the numbers of nodes connections vary and the nodes are unordered while CNNs are built to operate on euclidean data. As mentioned above, many of the proposed representations have significant shortcomings. The Volumetric and 2D Representations lose the 3D geometry, while Point Representations may be unsuitable for sparse data.
+</p>
+</li></ol>
+</li>
+<li><p><b>Multi-Sensor Data Fusion</b>: The next step is fusing the extracted features for better perception. However, there are many approaches for executing this step:
+</p>
+<ol>
+<li><p>What to Fuse? Some studies fuse features from visual cameras with thermal cameras or RGB images with Depth. In this research, we aim to fuse features from LiDAR and Camera Images.
+</p>
+</li>
+<li><p>When to Fuse?
+</p>
+<ol>
+<li><p>Early Fusion: This method, first combines the same-sized similar data (e.g. RGB image, depth, and thermal) then exploits features from the final data. <b>Early Fusion has a high precision due to its rich input which is the concatenation of many sensors.</b>
+</p>
+</li>
+<li><p>Late Fusion: This method, first exploits features from both data independently, then combines the feature maps into one feature map and feeds it to a classifier. <b>Late Fusion has a high recall since the objects are independently detected from different sensors.</b>
+</p>
+</li>
+<li><p>Middle Fusion: In this method, feature maps are generated independently from each sensor then combined and fed to another network (not the classifier like in Late Fusion methods). But this method may have too many learnable parameters and is difficult to train.
+</p>
+</li>
+</ol>
+
 </li>
 </ol>
 
