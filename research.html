@@ -28,8 +28,29 @@ MathJax.Hub.Config({
 <div id="toptitle">
 <h1>Research</h1>
 </div>
-<p>Recently, scene perception has been accomplished through object detection, and semantic segmentation in 2D camera images, and LiDAR sensors. One of the important uses of this study is in self-driving cars application. Scene perception can have a significant impact on human life by reducing driving hazards, preventing harmful behaviors, and increasing travel safety. Although AI research is very advanced in 2D object detection, and it is considered a solved issue in a good environment, it still remains a challenging problem in more complex conditions (e.g. rainy days, dim light, etc). <br />
-Camera images provide high-resolution color and texture attributes, but they are not prone to weather and light conditions and suffer from a lack of depth estimation. On the other hand, the Light Detection and Ranging (LiDAR) sensor is an active point-and-shoot device that can re-create the car's surroundings in the form of 3D points (i.e. point cloud). This point cloud is not affected by</p>
+<p>Recently, scene perception has been accomplished through object detection, and semantic segmentation in 2D camera images, and Light Detection and Ranging (LiDAR) sensors. One of the important uses of this study is in self-driving cars application. Scene perception can have a significant impact on human life by reducing driving hazards, preventing harmful behaviors, and increasing travel safety. Although Deep Learning researches are very advanced in 2D object detection, and it is considered a solved issue in good environments, it still remains a challenging problem in more complex conditions (e.g. rainy days, dim light, etc). <br />
+Camera images provide high-resolution color and texture attributes, but they are not prone to extreme weather and light conditions and suffer from a lack of depth estimation. On the other hand, the LiDAR sensor is an active point-and-shoot device that can re-create the car's surroundings in the form of 3D points (i.e. point cloud). The point cloud is not affected by illumination conditions, but it is hard to process this data since it is sparse, irregular, and deprived of characteristics offered by camera images. <br />
+In this study, we aim to provide a more comprehensive perception of the environment by integrating features from both LiDAR point cloud and camera images. This task is divided into the following parts:
+</p>
+<ol>
+<li><p><b>2D Camera Image Feature Extraction</b>: Processing 2D images using a Convolutional Neural Network (CNN) to create a feature map and detecting objects with a fully connected network as a classifier is a simple yet very promising method. Thus, processing 2D images with deep learning is very advanced.
+</p>
+</li>
+<li><p><b>LiDAR 3D point cloud Feature Extraction</b>: Point cloud data is highly sparse and unordered while CNNs are build to operate on regular structured data. Thus, there are other methods for processing point cloud data.
+</p>
+<ol>
+<li><p>Volumetric Representation: This method creates a structered 3D grid from point cloud data which is compatible with 3D CNN. But during the voxelization the shape loses its resoloution and 3D geometry information and consequently reduces method's performance. Moreover, denser volexls increase the computation and memory costs, which are not compatible with a real-time driving system.
+</p>
+</li>
+<li><p>2D Representation: These methods generates 2D views of point cloud by projecting it to image plane. The created data can be processed by 2D convolutions. This method also loses the 3D geometry information.
+</p>
+</li>
+<li><p>Point Representation:</p>
+</li>
+</ol>
+
+</li>
+</ol>
 </td>
 </tr>
 </table>
