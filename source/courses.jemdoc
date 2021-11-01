@@ -28,7 +28,7 @@ Design of Algorithms course (CE40354) Mohammad Ali Abam
 
 <li>
 <p style="text-align:left;">
-Data structure and Algorithms course (CE40254) Masoud Sedighin
+Data structure and Algorithms course (CE40254) Masoud Seddighin
 <span style="float:right;">
 <em> September 2021 - Present </em>
 </span>
@@ -46,7 +46,7 @@ Scientific and Technical Presentation course (CE40221) Shohreh Kasaei
 
 <li>
 <p style="text-align:left;">
-Design of Algorithms course (CE40354) Masoud Sedighin
+Design of Algorithms course (CE40354) Masoud Seddighin
 <span style="float:right;">
 <em> January 2021 - June 2021 </em>
 </span>
@@ -90,6 +90,21 @@ Digital Systems Design course (CE40223) Farshad Baharvand
 </li>
 </ul>
 ~~~
+
+== Technical Projects
+While taking some university courses, I did a number of projects that enhanced my coding skills and teamwork abilities. Also, some of the project required reading and analyzing papers related to my field of research. A few of these projects are described below. \n \n
+
+- [https://github.com/MostafaOjaghi/SAD_LoyaltyClub Loyalty Club]: This project presents a dynamic system to encourage customers to continue using the services of associated businesses. Each business can determine the parameters Score Coefficient, Score Period, and Max Order Score to rank the customers, and place them in different levels. The defined levels offer arbitrary facilities such as free shipping, birthday gifts, or discounts. Also, some analytics plots are offered to present the growth trend of the business.
+
+- [https://github.com/yeggh/PyTorch-Implemntation-of-the-paper-Graph-Convolutional-Networks-for-Text-Classification- A PyTorch Implemntation of the paper "Graph Convolutional Networks for Text Classification"]
+
+- [https://github.com/MostafaOjaghi/DecafCompiler Decaf Compiler]: Our team designed a compiler for the decaf programming language.
+
+- [https://github.com/yeggh/NRF-Comunication NRF Comunication]: This project presents a two-way communication mechanism implemented on Arduino devices that sends and receives packets using a keypad and a Nokia LCD Display device.
+
+- [https://github.com/yeggh/Processor Processor with a Complex Number Unit Comprocessor]
+
+
 
 == Courses
 I passed the following university courses, as well as several online courses related to deep learning and image processing to strengthen my background. \n \n
